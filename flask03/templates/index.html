@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <title>Flask 03</title>
+</head>
+<body>
+    <h1 class="title">Flask Templates and Static File Tutorial</h1>
+    <div class="image">
+        <img src="{{ url_for('static', filename='image/image1.png') }}" alt="Flask Logo">
+    </div>
+
+</body>
+</html>
